@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     'apps.core',
     'apps.employees',
     'django_filters',
+    'apps.inventory',
+    'apps.sales',
+    'apps.audits',
+    'apps.reports',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
